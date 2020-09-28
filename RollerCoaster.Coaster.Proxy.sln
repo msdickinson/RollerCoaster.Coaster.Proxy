@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RollerCoaster.Coaster.Proxy", "RollerCoaster.Coaster.Proxy\RollerCoaster.Coaster.Proxy.csproj", "{6ACAE30D-5AF6-4F89-9232-E25AF2C8BAF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Library", "1 Library", "{1F732286-C43B-4110-AE4D-6696F388FB39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RollerCoaster.Coaster.Proxy.Tests", "RollerCoaster.Coaster.Proxy.Tests\RollerCoaster.Coaster.Proxy.Tests.csproj", "{5869DDDF-EE62-44DC-9A5B-89629B4BAAD4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Runner", "2 Runner", "{9E7152FB-0F74-423A-89FF-130ACE558E6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9 Misc", "9 Misc", "{89C0B721-ECB6-4A4E-A153-008001561D17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RollerCoaster.Coaster.Proxy.Runner", "RollerCoaster.Coaster.Proxy.Runner\RollerCoaster.Coaster.Proxy.Runner.csproj", "{6ED4D089-98CC-4B8B-B8E1-3FE03E52C619}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6ACAE30D-5AF6-4F89-9232-E25AF2C8BAF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACAE30D-5AF6-4F89-9232-E25AF2C8BAF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACAE30D-5AF6-4F89-9232-E25AF2C8BAF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ACAE30D-5AF6-4F89-9232-E25AF2C8BAF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5869DDDF-EE62-44DC-9A5B-89629B4BAAD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5869DDDF-EE62-44DC-9A5B-89629B4BAAD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5869DDDF-EE62-44DC-9A5B-89629B4BAAD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5869DDDF-EE62-44DC-9A5B-89629B4BAAD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ED4D089-98CC-4B8B-B8E1-3FE03E52C619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ED4D089-98CC-4B8B-B8E1-3FE03E52C619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ED4D089-98CC-4B8B-B8E1-3FE03E52C619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ED4D089-98CC-4B8B-B8E1-3FE03E52C619}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6ACAE30D-5AF6-4F89-9232-E25AF2C8BAF6} = {1F732286-C43B-4110-AE4D-6696F388FB39}
+		{5869DDDF-EE62-44DC-9A5B-89629B4BAAD4} = {1F732286-C43B-4110-AE4D-6696F388FB39}
+		{6ED4D089-98CC-4B8B-B8E1-3FE03E52C619} = {9E7152FB-0F74-423A-89FF-130ACE558E6B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8641DC41-3DB9-48D6-B613-65D07CD6F210}
+	EndGlobalSection
+EndGlobal

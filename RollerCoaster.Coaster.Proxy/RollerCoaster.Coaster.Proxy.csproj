@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Configurations>Debug;Release</Configurations>
+    <VersionPrefix>1.0.1</VersionPrefix>
+    <Authors>Mark Dickinson</Authors>
+    <Company>DickinsonBros</Company>
+    <RepositoryUrl>https://github.com/msdickinson/RollerCoaster.Account.Proxy.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Description>
+      Coaster Proxy Service utlizing durable rest.
+
+      Methods
+      * CreateAsync
+      * PublishAsync
+      * UpdateAsync
+      * LogAsync
+      * UserAuthorizedAsync
+      * FetchCoastersAsync
+      * FetchCoasterByIdAsync
+      * FetchCoasterByTokenAsync
+      * DeleteCoasterAsync
+
+      Features
+      * Polciy based retrys and timeouts.
+      * Logs for all successful and exceptional runs
+      * Telemetry for all calls
+    </Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DickinsonBros.DurableRest.Abstractions" Version="[5.0.0, 6.0.0)" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="[3.1.8, 4.0.0)" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="[3.1.8, 4.0.0)" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="[3.1.8, 4.0.0)" />
+    <PackageReference Include="System.Text.Json" Version="[4.7.2, 5.0.0)" />
+    <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="[2.2.0, 3.0.0)" />
+    
+  </ItemGroup>
+</Project>
