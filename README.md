@@ -12,7 +12,7 @@ Features
 * Logs for all successful and exceptional runs
 * Telemetry for all calls
 
-<a href="https://dev.azure.com/marksamdickinson/DickinsonBros/_build?definitionScope=%5CRollerCoaster.Coaster.Proxy">Builds</a>
+<a href="https://dev.azure.com/marksamdickinson/RollerCoaster/_build?definitionScope=%5CRollerCoaster.Coaster.Proxy">Builds</a>
 
 <h2>Example Usage</h2>
 
